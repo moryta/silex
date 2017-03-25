@@ -1,0 +1,7 @@
+CREATE DATABASE `silex` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_bin */;
+
+SELECT * FROM silex.posts;CREATE TABLE `posts` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` text COLLATE utf8_bin,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

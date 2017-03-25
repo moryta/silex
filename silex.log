@@ -1,0 +1,6 @@
+[2017-03-25 17:00:23] app.INFO: Matched route "{route}". {"route":"GET_posts_id","route_parameters":{"_controller":"[object] (Closure: {})","id":"1","_route":"GET_posts_id"},"request_uri":"http://localhost:8000/posts/1","method":"GET"} []
+[2017-03-25 17:00:23] app.DEBUG: > GET /posts/1 [] []
+[2017-03-25 17:00:23] app.INFO: O titulo do post e 'Teste Post 1'. [] []
+[2017-03-25 17:00:23] app.WARNING: O titulo do post e 'Teste Post 1'. [] []
+[2017-03-25 17:00:23] app.ERROR: O titulo do post e 'Teste Post 1'. [] []
+[2017-03-25 17:00:23] app.DEBUG: < 200 [] []
